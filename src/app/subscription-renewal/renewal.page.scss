@@ -1,0 +1,98 @@
+ion-content {
+  --background: #DFDFDF;
+}
+.float-right{
+  float: right;
+}
+.profile {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.status-text{
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.text-Header1{
+  color: #707070;
+  font-size: 14px;
+}   
+.status-padding{
+  background-color: green;
+    width: 100px;
+    border-radius: 30px;
+    color: white;
+}
+.action-padding{
+    width: 100px;
+    border-radius: 30px;
+    border-color: orange; 
+    border-width: .01em;
+    border-style:solid;
+    color: orange;
+}
+.text-Header{
+  color: #707070;
+  font-size: 14.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.screen-padding{
+  padding: 30px;
+}
+.item-name{
+  margin-top: 10px;
+}
+.description-line{
+  margin-top: 15px;
+  background-color: #e4e1e1;
+  width: 100px;
+  margin-bottom: 20px;
+  min-height: 1px;
+}
+.content-box {
+  min-height: 600px;
+  width: 100%;
+  background: #FEFFFF;
+  border-radius: 3px;
+  margin-top: 20px;
+  padding: 20px;
+  border-top-width: 10px;
+  border-top: orange;
+  border-top-style: solid;
+}
+.subscription-box{
+  min-height: 100px;
+  width: 100px;
+  padding: 10px;
+  padding-top: 20px;
+  text-align: left;
+  box-shadow: 0px 3px 6px #00000029;
+  background: -webkit-linear-gradient(300deg, #FFFFFF 2%, #E4E4E4 100%) !important;
+  border-radius: 10px;
+}
+.subscription-text-Header{
+  color: #707070;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.subscription-text-Header1{
+  color: #707070;
+  font-size: 10px;
+  margin-top: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.subscription-text-Header2{
+  color: #949393;
+  margin-top: 10px ;
+  font-size: 8px;
+  text-transform: uppercase;
+}
