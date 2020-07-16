@@ -1,0 +1,63 @@
+<ion-menu side="start" content-id="main-content">
+  <ion-header>
+      <ion-toolbar translucent>
+          <ion-title>Menu</ion-title>
+      </ion-toolbar>
+  </ion-header>
+  <!-- <ion-content>
+      <ion-list>
+          <ion-item>
+              <ion-label>Sales</ion-label>
+          </ion-item>
+      </ion-list>
+  </ion-content> -->
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-header>
+      <ion-toolbar>
+          <ion-buttons slot="start">
+              <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+          <ion-label slot="primary">
+              <div class="profile">
+              </div>
+          </ion-label>
+          <ion-label slot="primary">NAME HERE</ion-label>
+          <ion-buttons slot="primary">
+              <ion-button>
+                  <ion-icon name='arrow-down'></ion-icon>
+              </ion-button>
+          </ion-buttons>
+      </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-grid class="screen-padding">
+        <ion-row >
+            <ion-col class="text-Header">SALES</ion-col>
+            <ion-col>
+                <div class="float-right text-Header">/Previous Page Name</div>
+                <ion-icon name="home" class="float-right">
+                </ion-icon>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col class="text-Header1">DESCRIPTION</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col size="12" size-lg="4">
+        <div [routerLink]="['/subscription']" class="content-box" >
+            <p class="float-right text-align">SUBSCRIPTION Management</p>
+        </div>
+      </ion-col>
+      <ion-col size="12" size-lg="4">
+        <div [routerLink]="['/sales-dashboard']" class="content-box">
+            <p class="float-right text-align">Sales dhashboard</p>
+        </div>
+      </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+  
+</div>
+
